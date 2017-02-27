@@ -1,7 +1,5 @@
-require 'pry'
 require 'socket'
 require './lib/server_conn'
-
 
 class Dictionary
   attr_reader :tcp_server, :path, :input_word, :request_lines, :response

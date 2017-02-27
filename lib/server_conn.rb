@@ -1,4 +1,5 @@
 require 'socket'
+
 class ServerConn
 
 	def listen_and_respond(port)
@@ -35,6 +36,5 @@ class ServerConn
 	end
 end
 
-# server = IterationZero.new
+# server = ServerConn.new
 # server.listen_and_respond(9292)
-#if running this file, keep two lines above, otherwise run interation_zero_test.rb
